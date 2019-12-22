@@ -1,0 +1,250 @@
+@charset "ISO-8859-1";
+.custom_navigation{
+	float: left !important;
+	margin-left: 80px;
+}
+.festive_season_body{
+	background: url(./images/festive_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.festive_body{
+	padding-bottom: 557px;
+}
+.festive_body_head{
+	margin-top: 80px;
+	margin-left: 100px;
+}
+.festive_body_head h1{
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+ 	color: transparent;
+ 	font-size: 62px;
+ 	font-weight: 600;
+}
+.festive_body_form{
+	width: 650px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.choose_month{
+	font-size: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+.select_months{
+	height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: darkred;
+    padding-left: 10px;
+}
+.month_button{
+    background: none;
+    background-color: white;
+    padding: 5px 20px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: darkred;
+    font-weight: 600;
+    border: 3px solid lightslategrey;
+    margin-left: 380px;
+}
+.festive_footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+/* add shop css */
+.addShop_head{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: floralwhite;
+}
+.addShop_body{
+	width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.addShop_body .row{
+	margin-bottom: 30px;
+}
+.addShop_body h4{
+	color: aliceblue;
+    margin-bottom: 0px;
+    padding-top: 4px;
+}
+.addShop_body input{
+	height: 30px;
+}
+.addShop_body span{
+	padding-left: 20px;
+    font-size: 17px;
+    color: red;
+}
+.addShop_buttons{
+	width: 330px;
+	margin: 0 auto;
+	text-align: right;
+	margin-top: 60px;
+}
+.addShop_buttons button{
+	background: none;
+	padding: 8px 20px;
+	color: aliceblue;
+	font-size: 16px;
+	font-weight: 600;
+}
+/* allot product css */
+.select_shopno_content{
+	text-align:center;
+	margin-top: 100px;
+}
+.select_shopno_h4{
+	display: inline-block;
+	margin-bottom:0px;
+    margin-right: 15px;
+    color: aliceblue;
+}
+.select_shopno{
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: darkred;
+}
+.allotProduct_body_table{
+	margin: 0 auto;
+    width: 500px;
+    margin-top: 70px;
+    color: whitesmoke;
+    font-size: 25px;
+    border: 3px solid;
+}
+.allotProduct_body_table input{
+	width: 50px;
+    border: 3px solid saddlebrown;
+}
+.allotProduct_body_table tr th{
+	text-align: center;
+}
+.allotProduct_body_table tr td{
+	text-align: center;
+}
+.allotproduct_submit{
+    background: none;
+    color: aliceblue;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 50px;
+    display: block;
+}
+/* view alloted stock css */
+.viewallotedstock_head{
+	margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+.viewallotedstock_table{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    text-align: center;
+}
+.viewallotedstock_table tr td{
+	font-size: 17px;
+    height: 42px;
+}
+.viewallotedstock_table tr th{
+    height: 60px;
+    color: bisque;
+}
+.viewallotedstock_table_update{
+	font-size: 20px;
+    color: yellow;
+    font-weight: 600;
+    text-decoration-line: none;
+}
+/* update product css */
+.updateProduct_body{
+	background-color:#212121;
+}
+.updateProduct_body h1{
+	color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+}
+.updateProduct_body_table{
+    margin: 0 auto;
+    margin-top: 60px;
+    background: white;
+    border: 2px solid blanchedalmond;
+}
+.updateProduct_body_table tbody tr td{
+	text-align: center;
+	font-size: 17px;
+    height: 42px;
+	font-weight: 500;
+}
+.updateProduct_body_table tbody tr th{
+	text-align: center;
+	height: 60px;
+	color: brown;
+	font-size: 20px;
+}
+.updateProduct_body_allot{
+    background: none;
+    color: brown;
+    border: 3px solid brown;
+    margin: 0 auto;
+    background-color:white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 50px;
+    display: block;
+}
+/* adminhome css */
+.shell_width{
+	width: 625px !important;
+}
+/* request.jsp css */
+.request_head{
+	    font-size: 48px;
+    margin-top: 70px;
+    text-align: center;
+    color: cornsilk;
+}
+.request_table{
+	margin: 0 auto;
+    margin-top: 50px;
+    border: 3px solid aliceblue;
+    width: 1000px;
+    text-align: center;
+}
+.request_table tr th{
+	font-size: 22px;
+    color: burlywood;
+    height: 70px;
+}
+.request_table tr td{
+	font-size: 17px;
+	font-weight: 600;
+	height: 48px;
+    color: azure;
+}
+.request_approve{
+background: no-repeat;
+    color: greenyellow;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 9px;
+}

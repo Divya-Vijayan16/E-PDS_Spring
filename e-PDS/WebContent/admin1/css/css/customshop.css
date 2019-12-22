@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+.customerdetail_footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+.customerdetail_head{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 48px;
+    color: aliceblue;
+}
+.customerdetail_body{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+.customerdetail_body_text{
+	display: inline-block;
+    color: burlywood;
+    margin-bottom: 0px;
+    vertical-align: -3px;
+}
+.customerdetail_body_input{
+    height: 35px;
+    margin-left: 15px;
+    border: 4px solid antiquewhite;
+}
+.customerdetail_body_submit{
+	background: none;
+    color: aliceblue;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 50px;
+    display: block;
+    border: 3px solid burlywood;
+}
+.customerdetail_table{
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+    color: antiquewhite;
+    border: 3px solid coral;
+    text-align: center;
+}
+.customerdetail_table tr th{
+	color: yellow;
+    font-size: 22px;
+}
+.customerdetail_table_allot{
+		background: none;
+    color: aliceblue;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 50px;
+    display: block;
+    border: 3px solid burlywood;
+}
+.customerdetail_table_allot a{
+	text-decoration:none;
+	color:cornsilk;
+}
+/* supply product css */
+.supplyproduct_body{
+	background:#212121;
+}
+.supplyproduct_head{
+    text-align: center;
+    margin-top: 120px;
+    color: yellowgreen;
+    font-size: 48px;
+}
+.supplyproduct_table{
+    margin: 0 auto;
+    background: aliceblue;
+    text-align: center;
+    border: 3px solid black;
+    width: 600px;
+    margin-top: 50px;
+}
+.supplyproduct_table tr th{
+	color: brown;
+    font-size: 22px;
+}
+.supplyproduct_table tr td{
+    font-size: 18px;
+    font-weight: 500;
+}
+.supplyproduct_table_submit{
+	background: none;
+    color: yellowgreen;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-top: 50px;
+    display: block;
+    border: 3px solid yellowgreen;
+}
